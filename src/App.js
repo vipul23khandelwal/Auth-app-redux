@@ -9,6 +9,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
+    <h1> welcome to main page </h1>
         <Route path='/' exact component={Landing}/>
         <Route path='/login' component={Login}/>
         <Route path='/signUp' component={SignUp}/>
